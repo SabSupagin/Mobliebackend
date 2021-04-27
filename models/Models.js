@@ -1,4 +1,3 @@
-
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema
 
@@ -16,6 +15,9 @@ let TestSchema = new Schema({
         type:String
     },
     stock:{
+        type:String
+    },
+    img:{
         type:String
     }
 },{

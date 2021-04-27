@@ -29,6 +29,7 @@ app.use(bodyParser.urlencoded({
 const testAPI = require('./routes/test.route');
 app.use('/api',testAPI)
 
+
 // CREATE PORT 
 const port = process.env.PORT || 4000
 const server = app.listen(port , ()=>{
